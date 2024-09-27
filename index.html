@@ -3,16 +3,27 @@
 
 		<link href="estiloak.css" rel="stylesheet">
 	</head>
+	<script src="main.js"></script>
 	<body>
-
+	
 	<div class="flex-container">
 
 	  <div class="flex left">
-	    Flex Column 1
+	    <img id="irudia">
 	  </div>
 
 	  <div class="flex right">
-	    Flex Column 2
+	    <form>
+			<label for="izenburua">Izenburua:</label>
+			<input type="text" id="izenburua" name="izenburua"><br><br>
+			<label for="egilea">Egilea:</label>
+			<input type="text" id="egilea" name="egilea"><br><br>
+			<label for="isbn">ISBN:</label>
+			<input type="text" id="isbn" name="isbn"><br><br>
+			<label for="data">Data:</label>
+			<input type="text" id="data" name="data"><br><br>
+			<input type="button" value="<<" id="atzeraBtn">
+			<input type="button" value=">>" id="aurreraBtn">
 	  </div>
 
 	</div>
